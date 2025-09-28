@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Mecanografía</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Juego de Mecanografía - Nivel 1</h1>
+        <div class="stats">
+            <p>Puntuación: <span id="score">0</span></p>
+            <p>Tiempo: <span id="time">60</span>s</p>
+            <p>Precisión: <span id="accuracy">100</span>%</p>
+        </div>
+        <div class="word-display" id="word-display">Presiona Start para comenzar</div>
+        <input type="text" id="word-input" placeholder="Escribe aquí..." disabled>
+        <button class="start-btn">Iniciar</button>
+        <button class="start-btn"><a href="index copy.html" id="next-nevel">Siguiente nivel</a></button>
+        <button class="start-btn"><a href="../index.html" id="next-nevel">Regresar a la página principal</a></button>
+        <div class="results" id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-chat">
+        <h2>Asistente</h2>
+        <div class="caja-chat" id="caja-chat"></div>
+        <div class="contenedor-entrada">
+            <input type="text" id="entrada-usuario" placeholder="Escribe tu pregunta..." onkeypress="if(event.key === 'Enter') enviarMensaje()">
+            <button onclick="enviarMensaje()">Enviar</button>
+            <button class="btn-regreso"><a href="../index.html" id="next-nevel">Regresar a la página principal</a></button>
+        </div>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+</html>

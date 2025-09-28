@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador Pomodoro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temporizador Pomodoro</h1>
+        
+        <div class="modes">
+            <button class="mode-btn active" id="pomodoroBtn">Pomodoro</button>
+            <button class="mode-btn" id="shortBreakBtn">Descanso Corto</button>
+            <button class="mode-btn" id="longBreakBtn">Descanso Largo</button>
+        </div>
+        
+        <div class="timer-display" id="timer">25:00</div>
+        
+        <div class="controls">
+            <button id="startBtn">Comenzar</button>
+            <button id="resetBtn">Reiniciar</button>
+        </div>
+        
+        <div class="pomodoro-count">
+            Pomodoros completados: <span id="count">0</span>
+        </div>
+    </div>
+
+    <audio id="alarm" src="https://assets.mixkit.co/sfx/preview/mixkit-alarm-digital-clock-beep-989.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

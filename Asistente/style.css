@@ -43,6 +43,10 @@ a{
     text-decoration: none;
 }
 
+[class="caja-chat"] a{
+    color: #333;
+}
+
 @media (max-width: 768px) {
     .contenedor-chat{
         width: 250px;

@@ -117,7 +117,7 @@ input[type="submit"] {
 }
 
 @media (max-width: 768px) {
-    #app{
+    .form{
         width: 300px;
     }
 }

@@ -59,7 +59,7 @@ async function obtenerResumenGoogle(consulta) {
             
             return `<strong>${mejorResultado.title}</strong><br><br>
                     ${mejorResultado.snippet}<br><br>
-                    Fuente: <a href="${mejorResultado.link}" target="_blank">${mejorResultado.displayLink}</a>`;
+                    Fuente: <a id="surces" href="${mejorResultado.link}" target="_blank">${mejorResultado.displayLink}</a>`;
         } else {
             return `No encontré información sobre "${consultaLimpia}". Intenta reformular tu pregunta.`;
         }

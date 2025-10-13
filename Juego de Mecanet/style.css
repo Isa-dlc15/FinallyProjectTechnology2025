@@ -7,7 +7,6 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 .game-container {
     background-color: white;
     border-radius: 10px;
@@ -17,27 +16,24 @@ body {
     max-width: 600px;
     text-align: center;
 }
-
 h1 {
     color: #333;
     margin-bottom: 20px;
 }
-
 .stats {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
     font-size: 18px;
 }
-
 .word-display {
     font-size: 24px;
     margin: 30px 0;
     min-height: 36px;
     color: #2c3e50;
     font-weight: bold;
+    letter-spacing: 1px;
 }
-
 #word-input {
     width: 80%;
     padding: 12px;
@@ -46,13 +42,18 @@ h1 {
     border-radius: 5px;
     margin-bottom: 20px;
     text-align: center;
+    transition: border-color 0.3s;
 }
-
 #word-input:focus {
     outline: none;
     border-color: #3498db;
 }
-
+#word-input.correct {
+    border-color: #27ae60;
+}
+#word-input.incorrect {
+    border-color: #e74c3c;
+}
 .start-btn {
     background-color: #333;
     color: white;
@@ -65,19 +66,32 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
-#next-nevel{
+.start-btn:hover {
+    background-color: #555;
+}
+.start-btn:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+.btn-link {
+    display: block;
     text-decoration: none;
     color: #fff;
 }
-
-#start-btn:hover {
-    background-color: #2980b9;
+button a{
+    color: #fff;
+    text-decoration: none;
 }
-
 .results {
     margin-top: 20px;
     font-size: 18px;
     color: #27ae60;
     min-height: 27px;
+}
+.word-correct {
+    color: #27ae60;
+}
+.word-incorrect {
+    color: #e74c3c;
+    text-decoration: line-through;
 }

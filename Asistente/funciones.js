@@ -162,17 +162,17 @@ function formatearRespuestaYouTube(videos) {
     videos.forEach((video, index) => {
         html += `
             <div class="video-result">
-                <a class="enlaceVideo" href="https://www.youtube.com/watch?v=${video.videoId}" target="_blank">
+                <a style="color: #000;" href="https://www.youtube.com/watch?v=${video.videoId}" target="_blank">
                     <img src="${video.thumbnail}" alt="${video.titulo}" style="float:left; margin-right:10px;">
-                    <strong class="enlaceVideo">${video.titulo}</strong><br>
-                    <em class="enlaceVideo">Canal: ${video.canal}</em>
+                    <strong style="color: #000;">${video.titulo}</strong><br>
+                    <em style="color: #000;">Canal: ${video.canal}</em>
                 </a>
                 <div style="clear:both; margin-bottom:15px;"></div>
             </div>
         `;
     });
     
-    html += '<br><small class="enlaceVideo">Haz clic en cualquier video para verlo en YouTube</small>';
+    html += '<br><small>Haz clic en cualquier video para verlo en YouTube</small>';
     return html;
 }
 

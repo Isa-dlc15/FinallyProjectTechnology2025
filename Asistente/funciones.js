@@ -162,7 +162,7 @@ function formatearRespuestaYouTube(videos) {
     videos.forEach((video, index) => {
         html += `
             <div class="video-result">
-                <a href="https://www.youtube.com/watch?v=${video.videoId}" target="_blank">
+                <a id="enlaceVideo" href="https://www.youtube.com/watch?v=${video.videoId}" target="_blank">
                     <img src="${video.thumbnail}" alt="${video.titulo}" style="float:left; margin-right:10px;">
                     <strong>${video.titulo}</strong><br>
                     <em>Canal: ${video.canal}</em>

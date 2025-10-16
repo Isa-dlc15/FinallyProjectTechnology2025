@@ -10,6 +10,7 @@ function limpiarConsulta(consulta) {
         .trim()
         .replace(/^¿(Qué|Que|Quién|Quien|Cuál|Cual|Cuándo|Cuando|Dónde|Donde|Por qué|Porque)\s+es\s+/i, '')
         .replace(/^¿/i, '')
+        .replace(/¿/g, '')
         .replace(/\?+$/g, '')
         .replace(/\s+/g, ' ')
 }

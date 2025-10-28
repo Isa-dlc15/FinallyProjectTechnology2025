@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['usuario'])){
+    header("Location: login.html");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,8 +26,10 @@
                 <li><a href="Técnica Pomodoro/index.html">Técnica de Pomodoro</a></li>
             </ul>
         </div>
-        <a><i class="bi bi-person-badge"></i></a>
-        <h2 style=" margin-right: 50px;">Isa.dlc</h2>
+        <div class="cerrar-sesion">
+            <a href="login.html"><i class="bi bi-person-badge"></i></a>
+            <a href="login.html"><h2 style=" margin-right: 50px;">Cerrar sesión</h2></a>
+        </div>
     </header>
     <div class="contenido">
         <p>✨ "Cada día es una nueva oportunidad para aprender y crecer. El conocimiento que adquieres hoy será la llave que abrirá las puertas de tu futuro. No tengas miedo de equivocarte, porque de cada error surge un aprendizaje valioso. Recuerda que estudiar no solo te acerca a tus metas académicas, sino también a tus sueños. ¡Aprovecha estas herramientas educativas y conviértete en la mejor versión de ti mismo!" 🚀📚</p>

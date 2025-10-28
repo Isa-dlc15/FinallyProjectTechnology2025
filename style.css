@@ -99,15 +99,27 @@ header > a:hover {
     color: var(--color-primary);
 }
 
-header > a i {
-    font-size: 1.5rem;
-    margin-right: 0.5rem;
-}
-
 header h2 {
     font-size: 1rem;
     font-weight: 500;
-    color: var(--color-text-light);
+    color: var(--color-text);
+}
+
+.cerrar-sesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 50px;
+}
+
+.cerrar-sesion a{
+    margin: 0 2px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.cerrar-sesion a i{
+    font-size: 23px;
 }
 
 footer {

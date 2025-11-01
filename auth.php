@@ -20,7 +20,7 @@ if($action == "login"){
 
     if($result -> num_rows >0){
         $_SESSION['usuario'] = $usuario;
-        header("Location: index.php");
+        header("Location: index.html");
         //echo $_SESSION['usuario'];
         //echo "Bienvenidos";
     }

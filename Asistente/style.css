@@ -23,19 +23,23 @@ body {
     margin-top: 10px;
 }
 input {
-    width: 90%;
+    width: 60%;
     border-radius: 20px;
     padding: 15px;
     border: 1px solid #333;
 }
 button {
-    width: 95%;
+    width: 30%;
     background-color: #333;
     color: #fff;
     margin-top: 10px;
     border-radius: 30px;
     padding: 15px;
     cursor: pointer;
+}
+
+.btn-regreso{
+    width: 96%;
 }
 
 a{
@@ -58,5 +62,9 @@ a{
     }
     button{
         margin-top: 5px;
+        width: 30%;
+    }
+    input{
+        width: 50%;
     }
 }

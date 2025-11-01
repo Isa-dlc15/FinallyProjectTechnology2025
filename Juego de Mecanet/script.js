@@ -1,5 +1,5 @@
  // Variables del juego
-let words = ['sol', 'casa', 'mesa', 'gato', 'rojo', 'flor', 'tren', 'css', 'azul', 'pan', 'nube'];
+let words = ['sol', 'casa', 'mesa', 'gato', 'rojo', 'flor', 'tren', 'css', 'azul', 'pan', 'nube', 'paz', 'amor', 'perro', 'cafe', 'carro', 'moto', 'bici', 'laptop', 'mouse'];
 let currentWord = '';
 let score = 0;
 let time = 60;

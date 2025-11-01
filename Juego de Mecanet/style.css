@@ -57,7 +57,7 @@ h1 {
 .start-btn {
     background-color: #333;
     color: white;
-    width: 100%;
+    width: 49%;
     border: none;
     margin-bottom: 5px;
     padding: 12px 30px;
@@ -65,6 +65,9 @@ h1 {
     border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+#regresar{
+    width: 100%;
 }
 .start-btn:hover {
     background-color: #555;

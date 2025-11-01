@@ -14,8 +14,10 @@
             <form action="">
                 <input type="text" id="EventName">
                 <input type="date" id="EventDate">
-                <input type="submit" id="bAdd" value="Añadir Evento">   
-                <button class="btn-regreso"><a href="../index.php" id="next-nevel">Regresar a la página principal</a></button>      
+                <div class="acciones">
+                    <input type="submit" id="bAdd" value="Añadir Evento">   
+                    <button class="btn-regreso" onclick="window.location.href='../index.php'">Regresar</button>      
+                </div>
             </form>
         </div>
         <div id="eventsContainer"></div>

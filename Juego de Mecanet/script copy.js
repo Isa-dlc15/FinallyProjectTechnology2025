@@ -1,5 +1,5 @@
 // Variables del juego
-let words = ['camino','ventana','jardín','montaña','escuela','domingo','fútbol','pájaro','sonido'];
+let words = ['Camino','Ventana','Jardín','Montaña','Escuela','Domingo','Futbol','Pájaro','Sonido'];
 let currentWord = '';
 let score = 0;
 let time = 60;

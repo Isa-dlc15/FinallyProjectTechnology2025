@@ -1,5 +1,5 @@
 // Variables del juego
-let words = ['Computadora','Electricidad','Murciélago','Fotografía','Ferrocarril','Automóvil','Extraordinario','Alimentación','Programación'];
+let words = ['Computadora','Electricidad','Murciélago','Fotografía','Ferrocarril','Automóvil','Extraordinario','Alimentación','Programación', 'Extranjero'];
 let currentWord = '';
 let score = 0;
 let time = 60;

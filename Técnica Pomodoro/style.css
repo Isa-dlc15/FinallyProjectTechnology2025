@@ -2,7 +2,7 @@
     --primary-color: #ff6b6b;
     --secondary-color: #4ecdc4;
     --tertiary-color: #ffe66d;
-    --dark-color: #292f36;
+    --dark-color: #333;
     --light-color: #f7fff7;
 }
 
@@ -31,6 +31,7 @@ body {
 }
 
 h1 {
+    font-weight: 100;
     margin-bottom: 30px;
     font-size: 2.5rem;
     color: var(--light-color);
@@ -61,13 +62,13 @@ button {
 }
 
 #startBtn {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
 }
 
 #resetBtn {
-    background-color: var(--secondary-color);
-    color: var(--dark-color);
+    background-color: var(--primary-color);
+    color: var(--light-color);
 }
 
 #regresar-btn{

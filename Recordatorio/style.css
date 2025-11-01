@@ -26,6 +26,7 @@ body{
     padding: 7px 15px;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .bActualizar{
@@ -34,6 +35,7 @@ body{
     padding: 7px 15px;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .form input{
@@ -47,13 +49,25 @@ body{
     box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type="submit"],
+.btn-regreso {
     border: none;
-    background-color: rgb(16, 31, 158);
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
+    width: 45%;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #444;
+    color: #fff;
 }
+
+.acciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .btn-regreso{
+
+} */
 
 #eventsContainer{
     background-color: white;
@@ -101,19 +115,6 @@ input[type="submit"] {
 
 .event .actions{
     padding: 10px;
-}
-
-.btn-regreso{
-    border: 0px solid;
-    width: 100%;
-    height: 40px;
-    border-radius: 10px;
-    background-color:  rgb(16, 31, 158);
-}
-
-.btn-regreso a{
-    color: #fff;
-    text-decoration: none;
 }
 
 @media (max-width: 768px) {
